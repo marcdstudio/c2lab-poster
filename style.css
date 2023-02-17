@@ -136,7 +136,7 @@ div{
 }
 
 .bounce{
-    animation: bounce 1s ease infinite;
+    /* animation: bounce 1s ease infinite; */
 }
 
 @keyframes bounce {
