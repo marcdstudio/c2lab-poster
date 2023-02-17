@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Neue Haas Black';
+    src: url('./fonts/NH-Black.woff') format('woff'),
+        url('./fonts/NH-Black.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Regular';
+    src: url('./fonts/NH-Regular.woff') format('woff'),
+        url('./fonts/NH-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+.title-large{
+    font-family: 'Neue Haas Black';
+    font-size: 100px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.row-1,
+.row-2{
+    flex-shrink: 0;
+}
+
+.row-2{
+    flex-grow: 1;
+    position: relative;
+}
+
+.row-2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.row-3 .title-large{
+    text-align: center;
+}
